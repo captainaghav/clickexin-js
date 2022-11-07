@@ -1,0 +1,10 @@
+function App(){
+    function apple()
+    {
+        alert("function called");
+    }
+    return(
+        <div className='APP'>
+            <button onClick={()=>apple()}>Click me</button>
+        </div>
+    );
